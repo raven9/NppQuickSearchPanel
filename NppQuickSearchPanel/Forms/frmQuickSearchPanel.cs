@@ -215,6 +215,8 @@ namespace NppQuickSearchPanel
             lstEntry.SelectedIndex = index + 1;
         }
 
+
+        //asgaga
         private void frmQuickSearch_FormClosing(object sender, FormClosingEventArgs e)
         {
             Settings.Configs.matchCase = chkMatchCase.Checked;
